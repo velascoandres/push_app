@@ -9,6 +9,13 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="push_app"
         android:icon="@mipmap/ic_launcher">
+         <service
+              android:name=".java.MyFirebaseMessagingService"
+               android:exported="false">
+              <intent-filter>
+                    <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                </intent-filter>
+          </service>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -37,6 +44,7 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->

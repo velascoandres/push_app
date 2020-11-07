@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "198119351644",
+    "firebase_url": "https://flup-test.firebaseio.com",
+    "project_id": "flup-test",
+    "storage_bucket": "flup-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198119351644:android:82610191394b5dafd40d99",
+        "android_client_info": {
+          "package_name": "com.velascoandres.push_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198119351644-99b7dgom7dhsi63lrtp2mvu16vmgsjre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWA7Bro3-obFCTur7xkcnhDlGEMiQUkBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198119351644-99b7dgom7dhsi63lrtp2mvu16vmgsjre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
